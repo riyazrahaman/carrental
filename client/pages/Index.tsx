@@ -211,50 +211,63 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-gray-900 overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
-            {/* Left Content */}
-            <div className="flex items-center px-6 lg:px-12 py-12 lg:py-0">
-              <div className="w-full">
-                {/* Social Links */}
-                <div className="hidden lg:flex flex-col items-center space-y-4 absolute left-12 top-1/2 transform -translate-y-1/2">
-                  <div className="w-px h-10 bg-orange-500"></div>
-                  <div className="flex flex-col space-y-3">
-                    <Facebook className="w-4 h-4 text-orange-500" />
-                    <Instagram className="w-4 h-4 text-orange-500" />
-                    <Twitter className="w-4 h-4 text-orange-500" />
-                    <MessageCircle className="w-4 h-4 text-orange-500" />
-                    <Send className="w-4 h-4 text-orange-500" />
-                  </div>
-                  <div className="w-px h-10 bg-orange-500"></div>
-                </div>
+      <section className="relative h-[742px] bg-carent-light overflow-hidden">
+        {/* Dark Left Background */}
+        <div className="absolute left-0 top-0 w-[613px] h-full bg-carent-dark"></div>
 
-                <div className="bg-black/15 backdrop-blur-sm p-8 rounded-lg lg:ml-16">
-                  <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">
-                    Enjoy your life with our comfortable cars.
-                  </h1>
-                  <p className="text-xl text-white/85 mb-8">
-                    Carent, is ready to serve the best experience in car rental.
-                  </p>
-                  <Button
-                    size="lg"
-                    className="bg-orange-500 hover:bg-orange-600 text-black text-xl px-8 py-6"
-                  >
-                    Explore Now
-                  </Button>
-                </div>
-              </div>
-            </div>
+        {/* Car Image */}
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/60ae11437062dd40b1430c2ccd639fc14fb3ecae?width=1818"
+          alt="Main Picture"
+          className="absolute right-0 top-[104px] w-[909px] h-[545px] object-cover"
+        />
 
-            {/* Right Image */}
-            <div className="relative">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/60ae11437062dd40b1430c2ccd639fc14fb3ecae?width=1818"
-                alt="Luxury car"
-                className="w-full h-full object-cover"
-              />
-            </div>
+        {/* Social Links */}
+        <div className="hidden lg:flex absolute left-[72px] top-[253px] flex-col items-center gap-4 w-4 h-[236px]">
+          <div className="w-px h-[38px] bg-carent-orange"></div>
+          <div className="flex flex-col gap-3">
+            <Facebook className="w-4 h-4 text-carent-orange fill-current" />
+            <Instagram className="w-4 h-4 text-carent-orange fill-current" />
+            <Twitter className="w-4 h-4 text-carent-orange fill-current" />
+            <MessageCircle className="w-4 h-4 text-carent-orange fill-current" />
+            <Send className="w-4 h-4 text-carent-orange fill-current" />
+          </div>
+          <div className="w-px h-[38px] bg-carent-orange"></div>
+        </div>
+
+        {/* Header Text Content */}
+        <div className="absolute left-[160px] top-[149px] w-[528px] h-[445px] bg-black/15 rounded-sm flex flex-col gap-12 p-8 pr-8">
+          <div className="flex flex-col gap-4">
+            <h1 className="font-montserrat font-[800] text-[48px] leading-none text-white">
+              Enjoy your life with
+              <br />
+              our comfortable
+              <br />
+              cars.
+            </h1>
+            <p className="w-[453px] font-poppins font-[500] text-[24px] leading-[40px] text-white/85">
+              Carent, is ready to serve the best
+              <br />
+              experience in car rental.
+            </p>
+          </div>
+          <button className="w-[256px] px-6 py-3 bg-carent-orange rounded text-carent-dark font-poppins text-[24px] font-[400] hover:bg-carent-orange/90 transition-colors">
+            Explore Now
+          </button>
+        </div>
+
+        {/* Mobile Content */}
+        <div className="lg:hidden flex flex-col items-center justify-center h-full px-6 bg-carent-dark/80">
+          <div className="text-center">
+            <h1 className="font-montserrat font-[800] text-[32px] leading-tight text-white mb-4">
+              Enjoy your life with our comfortable cars.
+            </h1>
+            <p className="font-poppins font-[500] text-[18px] leading-[28px] text-white/85 mb-8">
+              Carent, is ready to serve the best experience in car rental.
+            </p>
+            <button className="px-6 py-3 bg-carent-orange rounded text-carent-dark font-poppins text-[18px] font-[400] hover:bg-carent-orange/90 transition-colors">
+              Explore Now
+            </button>
           </div>
         </div>
       </section>
