@@ -573,7 +573,7 @@ export default function Index() {
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/110003131818099242e3b3dedf8629db0b81f99f?width=902"
                     alt="Contact"
-                    className="w-full h-full object-cover rounded-r-lg"
+                    className="w-full h-64 object-cover"
                   />
                 </div>
               </div>
