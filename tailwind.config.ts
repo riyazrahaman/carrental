@@ -57,6 +57,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Car Rental Brand Colors
+        carent: {
+          orange: "#FE8400",
+          dark: "#141414",
+          light: "#FBFBFB",
+          cream: "#FFE4C6",
+          gray: "#575757",
+        },
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        "arial-black": ["Arial Black", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
