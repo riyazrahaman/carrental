@@ -87,6 +87,42 @@ export default function Index() {
         { icon: <Car className="w-4 h-4" />, label: "Mini coupe" },
       ],
     },
+    {
+      id: "4",
+      name: "BMW X5",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/257c29ce5b436c9ed822785adde4dac97f63314b?width=639",
+      price: 280,
+      features: [
+        { icon: <Users className="w-4 h-4" />, label: "7" },
+        { icon: <Fuel className="w-4 h-4" />, label: "Hybrid" },
+        { icon: <Car className="w-4 h-4" />, label: "SUV" },
+      ],
+    },
+    {
+      id: "5",
+      name: "Audi A4",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/ad335f4c50a0975635eddc3d73b3aa1d9cbce3c3?width=639",
+      price: 220,
+      features: [
+        { icon: <Users className="w-4 h-4" />, label: "5" },
+        { icon: <Fuel className="w-4 h-4" />, label: "Gasoline" },
+        { icon: <Car className="w-4 h-4" />, label: "Sedan" },
+      ],
+    },
+    {
+      id: "6",
+      name: "Tesla Model 3",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/c9c84ae7d986ab6a9750b31323a6dc03a402dc44?width=1096",
+      price: 320,
+      features: [
+        { icon: <Users className="w-4 h-4" />, label: "5" },
+        { icon: <Fuel className="w-4 h-4" />, label: "Electric" },
+        { icon: <Car className="w-4 h-4" />, label: "Sedan" },
+      ],
+    },
   ];
 
   const services: Service[] = [
